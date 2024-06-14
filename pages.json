@@ -3,13 +3,13 @@
 		{
 			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText": "AIU",
+				"navigationBarTitleText": "ClarifAI Trade",
 				"navigationStyle": "custom"
 			}
 		}, {
 			"path": "pages/phone/phone",
 			"style": {
-				"navigationBarTitleText": "AIU",
+				"navigationBarTitleText": "ClarifAI Trade",
 				"enablePullDownRefresh": false,
 				"navigationStyle": "custom",
 				"navigationBarTextStyle":"black"
@@ -19,7 +19,7 @@
 		{
 			"path": "pages/webview/webview",
 			"style": {
-				"navigationBarTitleText": "AIU",
+				"navigationBarTitleText": "ClarifAI Trade",
 				"enablePullDownRefresh": false,
 				"navigationStyle": "custom"
 			}
@@ -27,7 +27,7 @@
 	],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "AIU",
+		"navigationBarTitleText": "ClarifAI Trade",
 		"navigationBarBackgroundColor": "#F8F8F8",
 		"backgroundColor": "#F8F8F8"
 	},

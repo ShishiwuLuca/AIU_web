@@ -29,6 +29,11 @@
 		src: url('@/static/font/Poppins_Regular.ttf');
 		font-display: swap;
 	}
+	@font-face {
+		font-family: 'semibolditalic';
+		src: url('@/static/font/mont-semibolditalic.ttf');
+		font-display: swap;
+	}
 	
 	/*每个页面公共css */
 </style>

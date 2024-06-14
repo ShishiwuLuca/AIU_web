@@ -7,7 +7,8 @@
 					<view class="item" v-for="(item,index) in navList" :key="index" @click="selectActiveEvt(item)">
 						{{item}}
 					</view>
-					<view class="btn" @click="goH5('http://clarifai.trade/#/pages/login/login?type=register')">Join Now
+					<view class="btn" @click="token?goH5('http://clarifai.trade/member'):goH5('http://clarifai.trade/member/#/pages/login/login?type=register')">
+						Login/Register
 					</view>
 				</view>
 			</view>
@@ -25,7 +26,8 @@
 						AI-powered market analysis and strategic foresight position you well ahead of market trends,
 						ensuring superior investment choices.
 					</view>
-					<view class="btn" @click="goH5('http://clarifai.trade')">Join Us</view>
+					<view class="btn" @click="token?goH5('http://clarifai.trade/member'):goH5('http://clarifai.trade/member/#/pages/login/login?type=register')">Join Us
+					</view>
 				</view>
 				<image class="right" src="../../static/page/banner-image.png"></image>
 			</view>
@@ -196,10 +198,10 @@
 						to wipe out all we have on hands.
 					</view>
 					<view class="txt">
-						“I have experienced many rounds of market dips. <br>
-						I understand how hard it is to suffer from losing everything in the market and how lonely it is<br>
-						to endure the market correction<br>
-						as a retailer without anywhere to turn. <br>
+						“I have experienced many rounds of market dips.<br>
+						I understand how hard it is to suffer from losing everything in the market<br>
+						and how lonely it is to endure the market correction<br>
+						as a retailer without anywhere to turn.<br>
 						But with AIMM, the situation has changed and you are alone no more.”<br>
 					</view>
 					<view class="tips">
@@ -571,25 +573,21 @@
 					<view class="item">
 						<view class="tit">Social Media</view>
 						<view class="icon">
-							<image class="image" src="../../static/page/follow-logo10.png"
+							<image class="image" src="../../static/index/follow-logo1.png"
+								@click="goH5('https://t.me/ClarifAI_Trade')"></image>
+							<image class="image" src="../../static/index/follow-logo10.png"
 								@click="goH5('https://twitter.com/ClarifAI_Trade')"></image>
-							<image class="image" src="../../static/page/follow-logo1.png"
-								@click="goH5('https://t.me/ClarifAITrade_Hub')"></image>
-							<image class="image" src="../../static/page/follow-logo2.png"
-								@click="goH5('https://www.tiktok.com/@clarifai.trade')"></image>
-							<!-- <image class="image" src="../../static/page/follow-logo3.png" @click="goH5('https://medium.com/@ClarifAI_Trade')"></image> -->
-							<!-- <image class="image" src="../../static/page/follow-logo4.png" @click="goH5('')"></image> -->
-							<image class="image" src="../../static/page/follow-logo5.png"
-								@click="goH5('https://www.facebook.com/ClarifAI.Trading/')"></image>
-							<!-- <image class="image" src="../../static/page/follow-logo6.png" @click="goH5('')"></image> -->
-							<image class="image" src="../../static/page/follow-logo7.png"
-								@click="goH5('https://www.instagram.com/clarifai.trade/')"></image>
-							<image class="image" src="../../static/page/follow-logo8.png"
-								@click="goH5('https://discord.gg/hpYR9JhG')"></image>
-							<image class="image" src="../../static/page/follow-logo9.png"
+							<image class="image" src="../../static/index/follow-logo8.png"
+								@click="goH5('https://discord.gg/KzrfpHwG54')"></image>
+							<image class="image" src="../../static/index/follow-logo9.png"
 								@click="goH5('https://www.youtube.com/@ClarifAITrade')"></image>
-
-							<image class="image" src="../../static/page/follow-logo11.png"
+							<image class="image" src="../../static/index/follow-logo2.png"
+								@click="goH5('https://www.tiktok.com/@clarifai_trade')"></image>
+							<image class="image" src="../../static/index/follow-logo7.png"
+								@click="goH5('https://www.instagram.com/clarifai.trade/')"></image>
+							<image class="image" src="../../static/index/follow-logo5.png"
+								@click="goH5('https://www.facebook.com/ClarifAI.Trading/')"></image>
+							<image class="image" src="../../static/index/follow-logo11.png"
 								@click="goH5('https://medium.com/@ClarifAI_Trade')"></image>
 						</view>
 					</view>
@@ -606,10 +604,12 @@
 				navIndex: 0,
 				navList: ['ClarifAI Trade', 'The Inception', 'The Blueprint', 'The Synergy', 'Contacts'],
 				bannerNav: false,
-				current: 0
+				current: 0,
+				token:uni.getStorageSync('AIUToken')
 			}
 		},
 		onLoad() {
+			this.token = uni.getStorageSync('AIUToken')
 			this.$nextTick(() => {
 				this.$wow.init()
 			})
@@ -693,7 +693,7 @@
 
 					.btn {
 						margin-left: 24px;
-						width: 146px;
+						width: 160px;
 						height: 42px;
 						border-radius: 23px;
 						border: 1px solid #BDFF29;
@@ -1173,21 +1173,21 @@
 
 					.txt {
 						margin: 30px auto;
-						font-family: Poppins;
+						font-family: semibolditalic;
 						font-weight: 600;
 						font-size: 20px;
 						color: #808080;
 						line-height: 30px;
-						font-style: normal;
+						font-style: italic;
 					}
 
 					.tips {
-						font-family: Poppins;
+						font-family: semibolditalic;
 						font-weight: 600;
 						font-size: 20px;
 						color: #FFFFFF;
 						line-height: 30px;
-						font-style: normal;
+						font-style: italic;
 					}
 				}
 

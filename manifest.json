@@ -1,5 +1,5 @@
 {
-    "name" : "AIU",
+    "name" : "ClarifAI Trade",
     "appid" : "__UNI__183B4ED",
     "description" : "",
     "versionName" : "1.0.0",
@@ -70,14 +70,14 @@
     },
     "vueVersion" : "2",
     "h5" : {
-        "title" : "AIU",
+        "title" : "ClarifAI Trade",
         "template" : "index.html",
         "devServer" : {
             "disableHostCheck" : true,
             "https" : false
         },
         "router" : {
-            "base" : "/aiu/"
+            "base" : ""
         }
     },
     "locale" : "en"
