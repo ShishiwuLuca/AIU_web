@@ -79,9 +79,9 @@
 			<view class="right">
 				<view class="txt">
 					Welcome to ClarifAI Trade, a visionary venture capital firm dedicated to transforming the
-					landscape of cryptocurrency trading. Established in the strategically positioned Seychelles,
-					ClarifAI Trade is registered and regulated by the Seychelles Financial Services Authority (FSA),
-					ensuring compliance with the highest standards of financial operations.
+					landscape of cryptocurrency trading. Strategically established in Cardiff, ClarifAI Trade is
+					registered and regulated by the United Kingdom, ensuring compliance with the highest standards
+					of business operations.
 					<br><br>
 					At ClarifAI Trade, we specialize in identifying and nurturing innovative blockchain technologies
 					that promise to revolutionize the financial markets. Our flagship service provider, AIMM—a
@@ -149,38 +149,64 @@
 			</view>
 		</view>
 		<view class="Founder">
+			<view class="tit">
+				Meet the Visionary<br>
+				<text class="text" style="line-height: 20px;"> Driving Force behind ClarifAI Trade</text>
+			</view>
 			<view class="detail">
 				<view class="left">
-					<image class="avater" src="../../static/partners/avater3.png"></image>
-					<view class="name">
-						Cyril Mickelson (CEO)</view>
+					<image class="avater" src="../../static/partners/ceo.jpg" mode="widthFix"></image>
 				</view>
 				<view class="right">
-					<view class="tit">
-						Meet the Visionary
-						<text class="text"> Driving Force behind ClarifAI Trade</text>
+					<view class="name">
+						Chief Executive Officer (CEO)
+						<text class="text">Zachary Flynn</text>
 					</view>
-
 					<view class="txt">
-						Cyril pursued his Master of Science in Cryptography and Information Security from the
-						prestigious
+						Zack pursued his Master of Science in Cryptography and Information Security from Stanford
 						Stanford College, deepening his expertise in blockchain technology and cryptography.
 						<br><br>
 						Established his distinguished career as a blockchain development expert, he leverages over a
-						decade
-						of experience in the field. His journey began as a software engineer at a leading tech company,
-						where he honed his skills in software development and system architecture.
+						decade of experience in the field. His journey began as a software engineer at a tech company
+						working for AMD, where he honed his skills in software development and system architecture.
 						<br><br>
-						Transitioning into blockchain technology, Cyril emerged as a visionary leader, co-founding
+						Transitioning into blockchain technology, Zack emerged as a visionary leader, co-founding
 						several
 						tech startups focused on blockchain innovation. His ventures span decentralized applications,
 						smart
 						contract auditing, and blockchain consulting, establishing him as a prominent figure in the
 						industry.
 						<br><br>
-						Cyril’s expertise extends to cryptocurrency analysis, where he has demonstrated a keen
+						Zack’s expertise extends to cryptocurrency analysis, where he has demonstrated a keen
 						understanding
-						of market trends and investment strategies, contributing to his success as a tech entrepreneur.
+						of market trends and investment strategies, contributing to his success as a rising star.
+					</view>
+				</view>
+			</view>
+			<view class="detail detail2" style="margin-top: 40px;">
+				<view class="left">
+					<image class="avater" src="../../static/partners/cmo.jpg" mode="widthFix"></image>
+				</view>
+				<view class="right">
+					<view class="name">
+						Chief Marketing Officer (CMO)
+						<text class="text">Adam Zayn</text>
+					</view>
+					<view class="txt">
+						Adam holds a Bachelor of Business Administration (BBA) with a concentration in Finance from the
+						University of Pennsylvania – The Wharton School, laying the groundwork for his finance career.
+						<br><br>
+						Later, he furthered his education with a Master of Business Administration (MBA), equipping him
+						with the knowledge and skills to excel in the competitive world of finance and investment
+						management.
+						<br><br>
+						Adam brings a wealth of financial expertise and strategic acumen to his role as Chief Marketing
+						Officer of ClarifAI Trade. With over two decades of experience in finance and investment
+						industry, Adam has navigated various roles, shaping him into a seasoned finance executive.
+						<br><br>
+						His career journey began in the world of finance, where he held positions as a financial analyst
+						at top-tier investment banks, refining his skills in financial modeling, risk assessment, and
+						strategic financial planning.
 					</view>
 				</view>
 
@@ -203,7 +229,7 @@
 						But with AIMM, the situation has changed and you are alone no more.”<br>
 					</view>
 					<view class="tips">
-						– Cyril Mickelson, The Founder of ClarifAI Trade.
+						– Zachary Flynn, CEO of ClarifAI Trade.
 					</view>
 				</view>
 				<view class="right">
@@ -227,58 +253,65 @@
 					In turmoil, we hold a steadfast belief in investment;
 					in waves, we embrace the meaning of adventure.<br><br>
 
-					The founding story of ClarifAI Trade, led by Cyril Mickelson, resonates deeply with the everyday
+					The founding story of ClarifAI Trade, led by Zachary Flynn and Adam Zayn, resonates deeply with the everyday
 					cryptocurrency trader, many of whom have navigated similar tumultuous waters.<br><br>
 
-					<text style="color: #BDFF29;">Belief amidst Turbulence: The Journey of Genesis</text><br><br>
-
-					It all began with Cyril’s early exploration of Bitcoin investment back in 2017. Fueled by the
-					excitement
-					of the burgeoning market, Cyril dove in headfirst, believing in the transformative power of
-					decentralized currencies.<br><br>
-
-					However, his journey was fraught with challenges. As the market experienced its first major
-					correction,
-					Cyril made the cautious decision to lock in profits, missing out on the meteoric rise that followed.
-					Despite this setback, Cyril remained steadfast in his belief in the potential of blockchain
-					technology.<br><br>
-
-					<text style="color: #BDFF29;">Rediscovery and Renewed Faith </text><br><br>
-
-					In 2021, the cryptocurrency market had evolved significantly, and Cyril’s early experiences had
-					honed
-					his understanding of its dynamics. Recognizing the need for reliable predictive tools in the
-					ever-shifting market, Cyril set out to find a solution that would empower investors like
-					himself.<br>
+					<text style="color: #BDFF29;">Belief amidst Turbulence: Adam</text><br><br>
+					
+					It all began with Adam’s early exploration of Bitcoin investment back in 2017. Fueled by the
+					excitement of the burgeoning market, Adam dove in headfirst, believing in the transformative power
+					of decentralized currencies.
+					<br><br>
+					As the market experienced its first major correction, Adam made the cautious decision to lock in
+					profits, missing out on the meteoric rise that followed. Despite this setback, Adam remained
+					steadfast in his belief in the potential of blockchain technology.
+					<br><br>
+					<text style="color: #BDFF29;">Disbeliever Turned a New Devotee: Zack</text><br><br>
+					
+					Meanwhile, motivated by Adam, Zack remained a disbeliever of cryptocurrency, viewing the crypto
+					craze as nothing more than digital “Tulip Mania.” Zack only held onto a small pool of Bitcoin more
+					as a memento than an investment.
+					<br><br>
+					In 2021, the cryptocurrency market had evolved significantly. Zack was astonished to find that his
+					modest Bitcoin holdings had ballooned into unexpected wealth. This revelation sparked a newfound
+					appreciation for cryptocurrency in Zack.
+					<br><br>
+					<text style="color: #BDFF29;">Disbeliever Turned a New Devotee: Zack</text><br><br>
+					Bridging the gap between Zack’s skepticism and Adam’s unwavering belief, the two of them united by a
+					shared vision.<br><br>
+					Recognizing the need for reliable predictive tools in the ever-shifting market, Zack and Adam set
+					out to find a solution that would empower all investors.
 				</view>
 				<view class="Initiative Initiative2">
-					<view style="color: #FFFFFF;font-size: 24px;text-align: center;">Brainchild: AIMM</view><br>
-
-					Ignited by a growing passion and a determined vision, Cyril embarked on a mission to navigate the
-					volatile crypto landscape with newfound determination. His search led him to AIMM, a pioneering
+					<view style="color: #FFFFFF;font-size: 40px;">Brainchild: AIMM</view><br><br>
+					
+					Ignited by a growing passion and a determined vision, Zack and Adam embarked on a mission to
+					navigate the
+					volatile crypto landscape with newfound determination. His search led them to AIMM, a pioneering
 					blockchain predictive tech company at the cutting edge of cryptocurrency analysis.<br><br>
-
+					
 					<text style="color: #BDFF29;">The Incubation of AIMM</text><br><br>
-
+					
 					Impressed by AIMM’s innovative tool boasting an impressive 98% accuracy in predicting the price
-					movements of Bitcoin and Ethereum, Cyril saw an opportunity to not only enhance his own trading
+					movements of Bitcoin and Ethereum, they saw an opportunity to not only enhance their own trading
 					strategies but also to democratize access to this invaluable resource.<br><br>
-
+					
 					<text style="color: #BDFF29;">Venture Capital</text><br><br>
-
-					In a bold move, Cyril, together with the AIMM tech engineers, founded ClarifAI Trade, a venture
+					
+					In a bold move, Zack and Adam, together with the AIMM tech engineers, founded ClarifAI Trade, a
+					venture
 					capital
 					firm dedicated to maximizing AIMM’s potential and making its predictive tool available to the public
 					on
 					a subscription basis.<br><br>
-
+					
 					<text style="color: #BDFF29;">Democratizing Access to Predictive Technology</text><br><br>
-
-					Driven by his own experiences of triumph and tribulation in the crypto market, Cyril Mickelson
+					
+					Driven by his own experiences of triumph and tribulation in the crypto market, they Mickelson
 					forged a
 					path towards a brighter future for cryptocurrency investors everywhere, leaving behind a legacy of
 					innovation and empowerment.<br><br>
-
+					
 					Through the advanced predictive tool by AIMM, ClarifAI Trade aimed to level the playing field,
 					empowering individuals to make informed decisions and seize opportunities in the dynamic world of
 					digital assets.<br><br>
@@ -519,8 +552,8 @@
 					<view class="tit">Strategic Stakeholders <br><text class="text">And Sustainable Development</text>
 					</view>
 					<view class="txt">
-						After discovering AIMM, Cyril along with the original AIMM engineering team,
-						formed ClarifAI Trade. Cyril and a group of investors allocated initial funds into the venture,
+						After discovering AIMM, Zack and Adam along with the original AIMM engineering team,
+						formed ClarifAI Trade. From their $BTC earnings, Zack and a group of investors allocated initial funds into the venture,
 						making AIMM the technology development department of ClarifAI Trade.
 						<br><br>
 						Investing in AIMM also serves as a talent retention strategy, integrating AIMM’s team into
@@ -1033,14 +1066,9 @@
 			padding: 72px 24px;
 
 			.detail {
-
 				.left {
-
 					.avater {
-						width: 100px;
-						height: 100px;
-						display: block;
-						margin: 0 auto;
+						width: 100%;
 						margin-bottom: 40px;
 					}
 				}
@@ -1064,21 +1092,29 @@
 				.text {
 					color: #BDFF29;
 				}
+
+				margin-bottom: 20px;
 			}
 
 			.name {
 				font-family: Poppins;
 				font-weight: bold;
-				font-size: 24px;
+				font-size: 20px;
 				color: #FFFFFF;
 				line-height: 32px;
 				text-align: center;
 				font-style: normal;
 				margin-bottom: 24px;
+				display: flex;
+				flex-direction: column;
+
+				.text {
+					font-size: 12px;
+					font-style: italic;
+				}
 			}
 
 			.txt {
-				text-align: center;
 				font-family: Poppins;
 				font-weight: 100;
 				font-size: 12px;
@@ -1095,9 +1131,14 @@
 			font-weight: bold;
 			font-size: 40px;
 			color: #FFFFFF;
-			line-height: 60px;
+			line-height: 50px;
 			color: #BDFF29;
 			margin-bottom: 24px;
+
+			.text {
+				font-size: 20px;
+				color: #FFFFFF;
+			}
 		}
 
 		.Inception {
