@@ -29,7 +29,7 @@
 						ensuring superior investment choices.
 					</view>
 					<view class="btn"
-						@click="token?goH5('http://clarifai.trade/member'):goH5('http://clarifai.trade/member/#/pages/login/login?type=register')">
+						@click="token?goH5('https://clarifai.trade/member'):goH5('https://clarifai.trade/member/#/pages/login/login?type=register')">
 						Join Us</view>
 				</view>
 			</view>
@@ -266,7 +266,7 @@
 					profits, missing out on the meteoric rise that followed. Despite this setback, Adam remained
 					steadfast in his belief in the potential of blockchain technology.
 					<br><br>
-					<text style="color: #BDFF29;">Disbeliever Turned a New Devotee: Zack</text><br><br>
+					<text style="color: #BDFF29;">Disbeliever Turned Devotee: Zack</text><br><br>
 					
 					Meanwhile, motivated by Adam, Zack remained a disbeliever of cryptocurrency, viewing the crypto
 					craze as nothing more than digital “Tulip Mania.” Zack only held onto a small pool of Bitcoin more
@@ -276,7 +276,7 @@
 					modest Bitcoin holdings had ballooned into unexpected wealth. This revelation sparked a newfound
 					appreciation for cryptocurrency in Zack.
 					<br><br>
-					<text style="color: #BDFF29;">Disbeliever Turned a New Devotee: Zack</text><br><br>
+					<text style="color: #BDFF29;">A Convergence of Paths</text><br><br>
 					Bridging the gap between Zack’s skepticism and Adam’s unwavering belief, the two of them united by a
 					shared vision.<br><br>
 					Recognizing the need for reliable predictive tools in the ever-shifting market, Zack and Adam set
