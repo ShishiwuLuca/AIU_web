@@ -163,7 +163,7 @@
 						<text class="text">Zachary Flynn</text>
 					</view>
 					<view class="txt">
-						Zack pursued his Master of Science in Cryptography and Information Security from Stanford
+						Zack pursued his Master of Science in Cryptography and Information Security from 
 						Stanford College, deepening his expertise in blockchain technology and cryptography.
 						<br><br>
 						Established his distinguished career as a blockchain development expert, he leverages over a
